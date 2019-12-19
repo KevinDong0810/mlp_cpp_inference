@@ -1,0 +1,48 @@
+{
+    "input_dim": 2,
+    "output_dim": 1,
+    "name_list": [
+        "layer-0",
+        "layer-1",
+        "output"
+    ],
+
+    "layer-0":{
+        "input_dim": 2,
+        "output_dim": 2,
+        "activation": "relu",
+        "weight": [
+            [0.0, 1.0],
+            [2.0, 3.0]
+        ],
+        "bias": [
+            0.2,
+            2.0
+        ]
+    },
+    "layer-2":{
+        "input_dim": 2,
+        "output_dim": 2,
+        "activation": "relu",
+        "weight": [
+            [0.0, 1.0],
+            [2.0, 3.0]
+        ],
+        "bias": [
+            0.2,
+            2.0
+        ]
+    },
+    "output":{
+        "input_dim": 2,
+        "output_dim": 1,
+        "activation": "linear",
+        "weight": [
+            [0.0],
+            [2.0]
+        ],
+        "bias": [
+            0.2
+        ]
+    }
+}
